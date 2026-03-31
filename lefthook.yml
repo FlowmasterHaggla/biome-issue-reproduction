@@ -1,0 +1,11 @@
+pre-commit:
+  piped: true
+  commands:
+    install:
+      run: |
+        if [ ! -d node_modules ]; then
+          npm ci
+        fi
+    lint-format:
+      run: npx @biomejs/biome check --no-errors-on-unmatched --files-ignore-unknown=true --colors=off --staged --write
+      stage_fixed: true
