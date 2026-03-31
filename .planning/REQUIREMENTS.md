@@ -1,14 +1,14 @@
 # Requirements: Biome IntelliJ Issue #233 Reproduction
 
 **Defined:** 2026-03-31
-**Core Value:** Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.4.9`.
+**Core Value:** Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.3.15`.
 
 ## v1 Requirements
 
 ### Setup
 
 - [ ] **SETUP-01**: User can install dependencies with `npm install` from a clean checkout.
-- [ ] **SETUP-02**: Project pins `@biomejs/biome` to exactly `2.4.9`.
+- [ ] **SETUP-02**: Project pins `@biomejs/biome` to exactly `2.3.15`.
 - [ ] **SETUP-03**: User can start a Fastify server with `npm run start`.
 
 ### Reproduction

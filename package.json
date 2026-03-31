@@ -2,7 +2,7 @@
   "name": "biome-intellij-issue-233-repro",
   "version": "1.0.0",
   "private": true,
-  "description": "Minimal Fastify + Biome 2.4.9 setup to reproduce biome-intellij issue #233",
+  "description": "Minimal Fastify + Biome 2.3.15 setup to reproduce biome-intellij issue #233",
   "workspaces": [
     "packages/*"
   ],
@@ -17,7 +17,7 @@
     "fastify": "^5.6.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.9"
+    "@biomejs/biome": "2.3.15"
   },
   "engines": {
     "node": ">=20.0.0"

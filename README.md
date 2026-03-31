@@ -1,6 +1,6 @@
 # Biome IntelliJ Issue #233 Reproduction
 
-Minimal Node.js + Fastify project with `@biomejs/biome@2.4.9` for reproducing:
+Minimal Node.js + Fastify project with `@biomejs/biome@2.3.15` for reproducing:
 `https://github.com/biomejs/biome-intellij/issues/233`
 
 ## Prerequisites
@@ -46,6 +46,6 @@ The class fixtures intentionally contain Biome warnings to help reproduce IDE-vs
 
 ## Expected Checkpoints
 
-- CLI uses pinned `@biomejs/biome@2.4.9`.
+- CLI uses pinned `@biomejs/biome@2.3.15`.
 - `src/repro-sample.js` is transformed by CLI format command.
 - Any mismatch between CLI behavior and IntelliJ plugin behavior is the repro signal to capture.

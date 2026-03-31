@@ -2,11 +2,11 @@
 
 ## What This Is
 
-This is a minimal Node.js project to reproduce `biomejs/biome-intellij` issue `#233` using `@biomejs/biome@2.4.9`. It includes a tiny Fastify server and reproducible formatter/linter inputs so behavior can be compared between IntelliJ and CLI.
+This is a minimal Node.js project to reproduce `biomejs/biome-intellij` issue `#233` using `@biomejs/biome@2.3.15`. It includes a tiny Fastify server and reproducible formatter/linter inputs so behavior can be compared between IntelliJ and CLI.
 
 ## Core Value
 
-Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.4.9`.
+Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.3.15`.
 
 ## Requirements
 
@@ -17,7 +17,7 @@ Anyone can clone this repository and reliably reproduce the IntelliJ plugin beha
 ### Active
 
 - [ ] Reproduction environment installs and runs locally with minimal setup.
-- [ ] Biome is pinned to version `2.4.9` and used by both CLI scripts and IDE plugin.
+- [ ] Biome is pinned to version `2.3.15` and used by both CLI scripts and IDE plugin.
 - [ ] Reproduction steps are documented and deterministic.
 
 ### Out of Scope
@@ -28,13 +28,13 @@ Anyone can clone this repository and reliably reproduce the IntelliJ plugin beha
 ## Context
 
 - Target issue: `https://github.com/biomejs/biome-intellij/issues/233`
-- Requested stack: Node.js + Fastify + Biome `2.4.9`
+- Requested stack: Node.js + Fastify + Biome `2.3.15`
 - Goal is fast reproduction, not feature completeness.
 
 ## Constraints
 
 - **Tech stack**: Node.js project with Fastify - required by request.
-- **Tool version**: `@biomejs/biome@2.4.9` - exact version required for reproduction consistency.
+- **Tool version**: `@biomejs/biome@2.3.15` - exact version required for reproduction consistency.
 - **Scope**: Minimal files only - reduce noise and avoid unrelated variables.
 
 ## Key Decisions
@@ -42,7 +42,7 @@ Anyone can clone this repository and reliably reproduce the IntelliJ plugin beha
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
 | Use plain JavaScript instead of TypeScript | Keep repro minimal and avoid transpilation variables | - Pending |
-| Pin Biome exactly to 2.4.9 | Reproduction must match reported issue version | - Pending |
+| Pin Biome exactly to 2.3.15 | Reproduction must match reported issue version | - Pending |
 | Include a Fastify server fixture | Repro should look like a real Node backend project | - Pending |
 
 ---

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build a minimal Node.js/Fastify project pinned to Biome `2.4.9`, add reproducible source files and commands, and document exact IDE-vs-CLI reproduction steps for the IntelliJ plugin issue.
+Build a minimal Node.js/Fastify project pinned to Biome `2.3.15`, add reproducible source files and commands, and document exact IDE-vs-CLI reproduction steps for the IntelliJ plugin issue.
 
 ## Phases
 
@@ -19,13 +19,13 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Phase Details
 
 ### Phase 1: Foundation Setup
-**Goal**: A clean install starts a minimal Fastify service with Biome pinned to 2.4.9.
+**Goal**: A clean install starts a minimal Fastify service with Biome pinned to 2.3.15.
 **Depends on**: Nothing (first phase)
 **Requirements**: [SETUP-01, SETUP-02, SETUP-03]
 **Success Criteria** (what must be TRUE):
   1. `npm install` completes on a clean checkout.
   2. `npm run start` starts Fastify and serves a health route.
-  3. `npm ls @biomejs/biome` shows version `2.4.9`.
+  3. `npm ls @biomejs/biome` shows version `2.3.15`.
 **Plans**: 2 plans
 
 Plans:

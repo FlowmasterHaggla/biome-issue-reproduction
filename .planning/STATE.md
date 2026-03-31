@@ -4,7 +4,7 @@
 
 See: .planning/PROJECT.md (updated 2026-03-31)
 
-**Core value:** Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.4.9`.
+**Core value:** Anyone can clone this repository and reliably reproduce the IntelliJ plugin behavior with Biome `2.3.15`.
 **Current focus:** Phase 1 - Foundation Setup
 
 ## Current Position
@@ -40,7 +40,7 @@ Progress: [----------] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- [Phase 1]: Use JavaScript + Fastify fixture with Biome pinned to 2.4.9 for reproducibility.
+- [Phase 1]: Use JavaScript + Fastify fixture with Biome pinned to 2.3.15 for reproducibility.
 
 ### Pending Todos
 

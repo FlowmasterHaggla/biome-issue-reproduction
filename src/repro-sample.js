@@ -1,10 +1,9 @@
-const values = [ 1,2,3 ]
+const values = [1, 2, 3];
 
-function greet (name){
-console.log("hello " + name)
+function greet(name) {
+  console.log(`hello ${name}`);
 }
 
-if(values.length>0){
-greet("biome")
+if (values.length > 0) {
+  greet('biome');
 }
-
