@@ -1,0 +1,21 @@
+{
+  "name": "biome-intellij-issue-233-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Fastify + Biome 2.4.9 setup to reproduce biome-intellij issue #233",
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node ./node_modules/@biomejs/biome/bin/biome check .",
+    "format": "node ./node_modules/@biomejs/biome/bin/biome format --write .",
+    "lint": "node ./node_modules/@biomejs/biome/bin/biome lint ."
+  },
+  "dependencies": {
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.9"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
