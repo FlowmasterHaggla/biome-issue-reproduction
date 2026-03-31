@@ -19,9 +19,21 @@ npm install
 ```bash
 npm run start
 npm run check
+npm run check:workspaces
 npm run format
 npm run lint
 ```
+
+## Workspace Packages
+
+This repository now uses Node workspaces:
+
+- `packages/auth-tests`
+- `packages/content-tests`
+- `packages/admin-tests`
+
+Each workspace includes Fastify-focused test class files under `tests/`.
+The class fixtures intentionally contain Biome warnings to help reproduce IDE-vs-CLI diagnostics behavior.
 
 ## Reproduction Steps
 
@@ -37,4 +49,3 @@ npm run lint
 - CLI uses pinned `@biomejs/biome@2.4.9`.
 - `src/repro-sample.js` is transformed by CLI format command.
 - Any mismatch between CLI behavior and IntelliJ plugin behavior is the repro signal to capture.
-

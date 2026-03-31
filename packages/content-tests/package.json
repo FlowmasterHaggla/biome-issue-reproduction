@@ -1,0 +1,9 @@
+{
+  "name": "@repro/content-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "fastify": "^5.6.1"
+  }
+}

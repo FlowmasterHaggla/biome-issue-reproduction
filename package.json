@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "Minimal Fastify + Biome 2.4.9 setup to reproduce biome-intellij issue #233",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "start": "node src/server.js",
     "check": "node ./node_modules/@biomejs/biome/bin/biome check .",
+    "check:workspaces": "node ./node_modules/@biomejs/biome/bin/biome check packages",
     "format": "node ./node_modules/@biomejs/biome/bin/biome format --write .",
     "lint": "node ./node_modules/@biomejs/biome/bin/biome lint ."
   },
